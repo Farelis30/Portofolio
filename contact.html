@@ -4,7 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Web Portofolio</title>
+    <title>Contact Me</title>
+    <link
+      rel="icon"
+      href="https://cdn-icons-png.flaticon.com/128/10246/10246298.png"
+    />
     <link rel="stylesheet" href="./css/contact.css" />
   </head>
   <body>
@@ -28,9 +32,9 @@
       </div>
     </nav>
 
-    <!-- Judul Web -->
     <div class="bg-full">
-      <div class="container">
+      <div class="container mt-navbar mb-navbar">
+        <!-- Kontak -->
         <div class="contact-list">
           <a
             href="https://www.linkedin.com/in/muhammad-alfarel-yudistira-b42488220/"
@@ -40,17 +44,17 @@
               <img
                 src="https://cdn-icons-png.flaticon.com/128/3536/3536505.png"
                 class="w-16 h-16"
-                alt=""
+                alt="Icon Linkedin"
               />
               <h3 class="text-contact">Linkedin</h3>
             </div>
           </a>
-          <a href="mailto: farelyudistira01@gmail.com">
+          <a href="mailto:farelyudistira01@gmail.com">
             <div class="contact-card">
               <img
                 src="https://cdn-icons-png.flaticon.com/128/732/732200.png"
                 class="w-16 h-16"
-                alt=""
+                alt="Icon Gmail"
               />
               <h3 class="text-contact">Gmail</h3>
             </div>
@@ -60,13 +64,53 @@
               <img
                 src="https://cdn-icons-png.flaticon.com/128/2111/2111463.png"
                 class="w-16 h-16"
-                alt=""
+                alt="Icon Instagram"
               />
               <h3 class="text-contact">Instagram</h3>
             </div>
           </a>
         </div>
       </div>
+      <div class="container">
+        <form action="" class="form-section">
+          <!-- Form Pesan -->
+          <h1>Get In Touch</h1>
+          <!-- Form Nama -->
+          <div class="input-form">
+            <label for="username">Nama</label>
+            <input
+              type="text"
+              name="username"
+              id="username"
+              placeholder="masukkan nama anda"
+            />
+          </div>
+          <!-- Form Email -->
+          <div class="input-form">
+            <label for="email">Email</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="masukkan email anda"
+            />
+          </div>
+          <!-- Form Pesan -->
+          <div class="input-form">
+            <label for="message">Message</label>
+            <textarea
+              name="message"
+              id="message"
+              cols="30"
+              rows="10"
+              placeholder="masukkan pesan anda"
+            ></textarea>
+          </div>
+          <!-- Button Kirim Pesan -->
+          <button class="input-button" type="submit">Kirim</button>
+        </form>
+      </div>
     </div>
   </body>
+  <script src="./js/contact.js"></script>
 </html>

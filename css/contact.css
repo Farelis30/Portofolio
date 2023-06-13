@@ -17,9 +17,11 @@ li {
 }
 
 .navbar {
+  position: fixed;
+  top: 0;
   width: 100%;
-  background: transparent;
-  position: absolute;
+  background-color: transparent;
+  transition: background-color 0.3s ease-in-out;
 }
 
 .navbar-container {
@@ -30,6 +32,12 @@ li {
   justify-content: space-between;
   align-items: center;
   padding: 16px;
+}
+
+.scrolled {
+  background-color: transparent;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
 }
 
 .logo {
@@ -65,12 +73,19 @@ li {
   margin: 0 auto;
 }
 
+.mt-navbar {
+  margin-top: 9rem;
+}
+
+.mb-navbar {
+  margin-bottom: 8rem;
+}
+
 .bg-full {
   width: 100%;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  height: auto;
+  display: grid;
+  place-items: center;
   background-color: #0f172a;
 }
 
@@ -99,7 +114,6 @@ li {
   box-shadow: -5px -5px 15px 2px rgba(0, 0, 255, 0.25),
     5px 5px 15px 2px rgba(255, 0, 0, 0.25);
   transform: translate(5px, 5px);
-  /* rotate: 360deg; */
 }
 
 .contact-card img {
@@ -111,6 +125,62 @@ li {
   font-size: 1.875rem;
   margin-top: 1rem;
   color: white;
+}
+
+.form-section {
+  background-color: rgba(3, 7, 18, 0.25);
+  border-radius: 5px;
+  gap: 1.75rem;
+  padding: 2.5rem;
+  margin-bottom: 3rem;
+}
+
+.form-section h1 {
+  color: white;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.form-section label {
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.form-section .input-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.form-section input,
+textarea {
+  width: 97%;
+  padding: 1rem;
+  outline: none;
+  font-size: 1.2rem;
+  border: 5px solid #03a9f4;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+}
+
+.form-section input::placeholder,
+textarea::placeholder {
+  color: #d5d5d5;
+}
+
+.input-button {
+  background-color: rgba(0, 0, 255, 0.5);
+  cursor: pointer;
+  border: 5px;
+  outline: none;
+  padding: 10px 25px;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-top: 2rem;
 }
 
 @media only screen and (max-width: 600px) {
