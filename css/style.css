@@ -1,3 +1,5 @@
+/* Settingan Awal Css */
+
 * {
   margin: 0;
   padding: 0;
@@ -16,12 +18,15 @@ li {
   list-style: none;
 }
 
+/* Style Navbar */
+
 .navbar {
   width: 100%;
   background: transparent;
   position: absolute;
 }
 
+/* Style Navbar Container */
 .navbar-container {
   width: 88.3%;
   margin: 0 auto;
@@ -61,10 +66,13 @@ li {
   color: #03a9f4;
 }
 
+/* Style Container */
 .container {
   width: 88.3%;
   margin: 0 auto;
 }
+
+/* Style Background */
 
 .bg-full {
   width: 100%;
@@ -75,11 +83,14 @@ li {
   background-color: #0f172a;
 }
 
+/* Style Nama */
 .nama {
   font-size: 2.25rem;
   font-weight: 600;
   color: white;
 }
+
+/* Style Text Custom */
 
 .custom-text {
   font-size: 8rem;
@@ -106,6 +117,8 @@ li {
   animation: wave 4s ease-in-out infinite;
   color: #03a9f4;
 }
+
+/* Style Animasi Text Custom */
 @keyframes wave {
   0%,
   100% {
@@ -137,6 +150,7 @@ li {
   }
 }
 
+/* Responsive Style */
 @media only screen and (max-width: 600px) {
   .links {
     display: none;

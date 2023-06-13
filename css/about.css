@@ -1,3 +1,5 @@
+/* Settingan Awal Css */
+
 * {
   margin: 0;
   padding: 0;
@@ -16,6 +18,8 @@ a {
 li {
   list-style: none;
 }
+
+/* Style Navbar */
 
 .navbar {
   position: fixed;
@@ -69,11 +73,13 @@ li {
   color: #03a9f4;
 }
 
+/* Style Container */
 .container {
   width: 88.3%;
   margin: 0 auto;
 }
 
+/* Style Background */
 .bg-full {
   width: 100%;
   height: auto;
@@ -81,6 +87,8 @@ li {
   place-items: center;
   background-color: #0f172a;
 }
+
+/* Style Awal Tiap Section */
 
 .about-section {
   margin-top: 8rem;
@@ -95,6 +103,8 @@ li {
 .certification-section {
   margin-top: 14rem;
 }
+
+/* Style Konten Section */
 
 .judul {
   font-size: 2.25rem;
@@ -113,6 +123,7 @@ li {
   font-size: 1.25rem;
 }
 
+/* Style background skill berjalan */
 .skill-animation {
   height: 50px;
   overflow: hidden;
@@ -154,42 +165,6 @@ li {
 }
 .eighth div {
   background-color: #31475e;
-}
-
-@keyframes text-animation {
-  0% {
-    margin-top: 0;
-  }
-  10% {
-    margin-top: -5.62rem;
-  }
-  20% {
-    margin-top: -11.48rem;
-  }
-  30% {
-    margin-top: -17.48rem;
-  }
-  40% {
-    margin-top: -23.48rem;
-  }
-  50% {
-    margin-top: -29.1rem;
-  }
-  60% {
-    margin-top: -35rem;
-  }
-  70% {
-    margin-top: -41.4rem;
-  }
-  80% {
-    margin-top: 0;
-  }
-  90% {
-    margin-top: 0;
-  }
-  100% {
-    margin-top: 0;
-  }
 }
 
 .skill-list {
@@ -260,6 +235,46 @@ li {
 .certificate-card img {
   width: 100%;
 }
+
+/* Style animasi Teks berjalan */
+@keyframes text-animation {
+  0% {
+    margin-top: 0;
+  }
+  10% {
+    margin-top: -5.62rem;
+  }
+  20% {
+    margin-top: -11.48rem;
+  }
+  30% {
+    margin-top: -17.48rem;
+  }
+  40% {
+    margin-top: -23.48rem;
+  }
+  50% {
+    margin-top: -29.1rem;
+  }
+  60% {
+    margin-top: -35rem;
+  }
+  70% {
+    margin-top: -41.4rem;
+  }
+  80% {
+    margin-top: 0;
+  }
+  90% {
+    margin-top: 0;
+  }
+  100% {
+    margin-top: 0;
+  }
+}
+
+/* Style Footer */
+
 .footer {
   margin-top: 2.5rem;
   width: 100%;
@@ -275,6 +290,7 @@ li {
   font-size: 1.25rem;
 }
 
+/* Responsive Style */
 @media only screen and (max-width: 600px) {
   .links {
     display: none;

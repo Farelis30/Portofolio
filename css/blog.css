@@ -1,3 +1,5 @@
+/* Settingan Awal Css */
+
 * {
   margin: 0;
   padding: 0;
@@ -17,6 +19,7 @@ li {
   list-style: none;
 }
 
+/* Style Navbar */
 .navbar {
   position: fixed;
   top: 0;
@@ -69,11 +72,13 @@ li {
   color: #03a9f4;
 }
 
+/* Style Container */
 .container {
   width: 88.3%;
   margin: 0 auto;
 }
 
+/* Style Background */
 .bg-full {
   width: 100%;
   height: auto;
@@ -82,8 +87,7 @@ li {
   background-color: #0f172a;
 }
 
-/* Blog */
-
+/* Style Blog Utama */
 .main-blog {
   display: grid;
   margin-top: 7rem;
@@ -102,6 +106,8 @@ li {
   border-radius: 10px;
   object-fit: cover;
 }
+
+/* Style Blog Section */
 
 .blog-section {
   margin-top: 2rem;
@@ -148,5 +154,3 @@ li {
 .blog-title:hover {
   text-decoration: underline;
 }
-
-/* Blog end */

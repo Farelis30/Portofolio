@@ -1,3 +1,5 @@
+/* Settingan Awal Css */
+
 * {
   margin: 0;
   padding: 0;
@@ -15,6 +17,8 @@ a {
 li {
   list-style: none;
 }
+
+/* Style Navbar */
 
 .navbar {
   position: fixed;
@@ -68,11 +72,13 @@ li {
   -webkit-backdrop-filter: blur(5px);
 }
 
+/* Style Container */
 .container {
   width: 88.3%;
   margin: 0 auto;
 }
 
+/* Style Background */
 .bg-full {
   width: 100%;
   height: auto;
@@ -81,10 +87,13 @@ li {
   background-color: #0f172a;
 }
 
+/* Style Project Section */
 .projects-section {
   margin-top: 5rem;
   margin-bottom: 5rem;
 }
+
+/* Style Project Content */
 
 .judul {
   font-size: 2.25rem;
@@ -134,21 +143,8 @@ li {
 .projects-card img {
   width: 100%;
 }
-.footer {
-  margin-top: 2.5rem;
-  width: 100%;
-  height: 5rem;
-  display: grid;
-  place-items: center;
-  text-align: center;
-  background-color: #080e20;
-}
 
-.footer p {
-  color: white;
-  font-size: 1.25rem;
-}
-
+/* Responsive Style */
 @media only screen and (max-width: 600px) {
   .links {
     display: none;
@@ -167,13 +163,4 @@ li {
   .projects-list {
     grid-template-columns: repeat(1, 1fr);
   }
-}
-
-#loading-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-  background-color: #080e20;
 }
