@@ -89,7 +89,7 @@ li {
 /* Style Background */
 .bg-full {
   width: 100%;
-  height: auto;
+  min-height: 100vh;
   display: grid;
   place-items: center;
   background-color: #0f172a;
